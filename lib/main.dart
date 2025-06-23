@@ -15,7 +15,7 @@ class XOGame extends StatelessWidget {
         WelcomeScreen.routeName: (_) => WelcomeScreen(),
         GameBoardScreen.routeName: (_) => GameBoardScreen(),
       },
-      initialRoute: GameBoardScreen.routeName,
+      initialRoute: WelcomeScreen.routeName,
     );
   }
 }
